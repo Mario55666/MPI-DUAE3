@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Líneas de Investigación e Innovación Tecnológica — IDC 2026</title>
+  <meta name="description" content="Plan de Investigación e Innovación Tecnológica 2026 del Instituto de Educación Superior Público Diseño & Comunicación (IDC): 32 líneas de investigación, 4 programas de estudio, 6 líneas transversales, metodología ABPP de 12 semanas." />
+  <meta name="theme-color" content="#0072b9" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_PE" />
+  <meta property="og:site_name" content="IDC — Instituto de Educación Superior Público Diseño &amp; Comunicación" />
+  <meta property="og:title" content="Líneas de Investigación e Innovación Tecnológica — IDC 2026" />
+  <meta property="og:description" content="32 líneas de investigación, 4 programas de estudio, 6 líneas transversales y metodología ABPP de 12 semanas. Documento institucional IDC-2026-INV." />
+  <meta property="og:image" content="assets/logo-idc.jpg" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Instituto de Educación Superior Público Diseño & Comunicación",
+    "alternateName": "IDC",
+    "description": "Plan de Investigación e Innovación Tecnológica 2026: 32 líneas de investigación en Diseño de Interiores, Publicidad, Modas y Comunicación Audiovisual.",
+    "logo": "assets/logo-idc.jpg",
+    "areaServed": "PE",
+    "department": [
+      { "@type": "Organization", "name": "Diseño de Interiores" },
+      { "@type": "Organization", "name": "Publicidad" },
+      { "@type": "Organization", "name": "Modas" },
+      { "@type": "Organization", "name": "Comunicación Audiovisual" }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="g-tooltip" id="gTooltip" role="tooltip" aria-live="polite"></div>
+
+<div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Progreso de lectura" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+<a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <span class="top-bar-left">Instituto de Educación Superior Público "Diseño & Comunicación" IDC</span>
+  <span class="top-bar-right">2026 · Unidad de Investigación</span>
+</div>
+
+<!-- DETAIL PANEL -->
+<div class="detail-overlay" id="detailOverlay" role="presentation" onclick="closePanel()"></div>
+<aside class="detail-panel" id="detailPanel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1">
+  <button class="panel-close" onclick="closePanel()" aria-label="Cerrar panel">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M1 1l11 11M12 1L1 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <div class="panel-accent-bar" id="panelAccentBar"></div>
+  <p class="panel-label" id="panelLabel"></p>
+  <h2 class="panel-title" id="panelTitle"></h2>
+  <ul class="panel-lines" id="panelLines" aria-label="Líneas de investigación"></ul>
+</aside>
+
+<!-- TUTORIAL MODAL — Cómo formular tu proyecto / Metodología ABPP -->
+<div class="tutorial-overlay" id="tutorialOverlay" role="dialog" aria-modal="true" aria-labelledby="tutorialTitle">
+  <div class="tutorial-modal">
+    <div class="tutorial-header">
+      <div>
+        <h2 id="tutorialTitle">Cómo formular tu proyecto</h2>
+        <p>Metodología ABPP &mdash; Aprendizaje Basado en Proyectos Productivos &middot; 4 fases &middot; 12 semanas</p>
+      </div>
+      <button class="tutorial-close" onclick="closeTutorial()" aria-label="Cerrar tutorial">&#x2715;</button>
+    </div>
+    <div class="tutorial-body">
+
+      <!-- Explicación de Marco Académico -->
+      <div class="tutorial-nav-explain">
+        <h3>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><rect x="2" y="2" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M5 7h4M5 5h2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          ¿Qué es el botón "Marco Académico"?
+        </h3>
+        <p>Es un menú desplegable que agrupa las <strong>5 secciones del documento institucional</strong> que enmarcan el proyecto. Haz clic en él para elegir a cuál ir directamente:</p>
+        <ul class="tutorial-nav-items">
+          <li><span class="tni-dot" style="background:#8e44ad"></span><strong>Líneas Transversales</strong> — 6 ejes que cruzan todas las carreras (IA, sostenibilidad, emprendimiento, etc.)</li>
+          <li><span class="tni-dot" style="background:#0072b9"></span><strong>Mapa de Convergencia</strong> — tabla que muestra cuántas carreras comparten cada línea transversal</li>
+          <li><span class="tni-dot" style="background:#f3a100"></span><strong>Métricas ROI</strong> — cómo calcular ROAS, CAC y LTV para evaluar la rentabilidad del proyecto</li>
+          <li><span class="tni-dot" style="background:#2ecc71"></span><strong>Metodología ABPP</strong> — las 4 fases de 12 semanas que guían la ejecución (ver abajo)</li>
+          <li><span class="tni-dot" style="background:#F3A20B"></span><strong>Evaluación y Rúbrica</strong> — criterios de calificación y pesos porcentuales de cada dimensión</li>
+        </ul>
+      </div>
+
+      <!-- Fases ABPP -->
+      <!-- Calculadora de fechas interactiva -->
+      <div style="background:rgba(0,114,185,.06);border:1.5px solid rgba(0,114,185,.18);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.2rem">
+        <div style="font-weight:700;color:var(--idc-blue);margin-bottom:.6rem;font-size:.93rem">📅 Calcula las fechas de tu proyecto</div>
+        <div style="display:flex;flex-wrap:wrap;gap:.7rem;align-items:flex-end">
+          <div>
+            <label style="font-size:.8rem;font-weight:600;display:block;margin-bottom:.25rem;color:var(--c-text-soft)">Fecha de inicio del proyecto</label>
+            <input type="date" id="tut-start" style="padding:.42rem .7rem;border:1.5px solid var(--c-border);border-radius:8px;font-size:.88rem;color:var(--c-text)"
+              oninput="tutCalcDates()" />
+          </div>
+          <div style="font-size:.82rem;color:var(--c-text-soft);padding-bottom:.5rem">→ duración fija: <b>12 semanas</b></div>
+        </div>
+        <div id="tut-date-result" style="margin-top:.7rem;display:none">
+          <div style="font-size:.8rem;color:var(--c-text-soft);margin-bottom:.4rem">Distribución calculada automáticamente:</div>
+          <div id="tut-date-rows" style="display:flex;flex-direction:column;gap:.3rem"></div>
+          <div style="margin-top:.6rem;font-size:.78rem;color:var(--c-text-soft)">Estos rangos se sincronizan con la sección <b>Cronograma</b> al hacer clic en "Ir a mi proyecto →".</div>
+        </div>
+      </div>
+
+      <p class="tutorial-phases-title">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M7 2v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        Metodología ABPP &mdash; 4 fases (12 semanas)
+      </p>
+
+      <div class="tutorial-phase" style="--ph-color:#0072b9">
+        <div class="tp-num">01</div>
+        <div class="tp-body">
+          <div class="tp-period">Sem. 1&ndash;2 &middot; Mayo</div>
+          <div class="tp-title">Briefing y Diagnóstico Estratégico</div>
+          <div class="tp-desc">Reunión con cliente/stakeholder real, investigación de mercado, análisis de competencia y objetivos medibles con hipótesis de impacto.</div>
+          <div class="tp-deliverable"><b>Entregable:</b>&nbsp;Estrategia creativa con hipótesis ROAS/CAC objetivo</div>
+        </div>
+      </div>
+
+      <div class="tutorial-phase" style="--ph-color:#f3a100">
+        <div class="tp-num">02</div>
+        <div class="tp-body">
+          <div class="tp-period">Sem. 3&ndash;5 &middot; May&ndash;Jun</div>
+          <div class="tp-title">Prototipado Rápido y Validación con IA</div>
+          <div class="tp-desc">3&ndash;5 variantes con IA generativa, pruebas A/B con públicos reales e iteración basada en datos.</div>
+          <div class="tp-deliverable"><b>Entregable:</b>&nbsp;Portafolio de variantes + reporte de validación A/B</div>
+        </div>
+      </div>
+
+      <div class="tutorial-phase" style="--ph-color:#2ecc71">
+        <div class="tp-num">03</div>
+        <div class="tp-body">
+          <div class="tp-period">Sem. 6&ndash;10 &middot; Jun&ndash;Ago</div>
+          <div class="tp-title">Ejecución y Monitoreo en Tiempo Real</div>
+          <div class="tp-desc">Lanzamiento de campaña/colección/espacio/contenido, monitoreo diario con dashboards y sprints de optimización semanal.</div>
+          <div class="tp-deliverable"><b>Entregable:</b>&nbsp;Dashboard automatizado con métricas en vivo</div>
+        </div>
+      </div>
+
+      <div class="tutorial-phase" style="--ph-color:#8e44ad">
+        <div class="tp-num">04</div>
+        <div class="tp-body">
+          <div class="tp-period">Sem. 11&ndash;12 &middot; Septiembre</div>
+          <div class="tp-title">Análisis de Resultados y Socialización</div>
+          <div class="tp-desc">Cierre, métricas definitivas, post-mortem crítico, presentación pública y publicación en el portafolio digital IDC.</div>
+          <div class="tp-deliverable"><b>Entregable:</b>&nbsp;Informe de Rentabilidad Creativa (activo de portafolio)</div>
+        </div>
+      </div>
+
+      <div class="tutorial-footer">
+        <p class="tutorial-footer-note">El proyecto es <strong>autofinanciado</strong>, equivale a <strong>200 horas</strong> de práctica profesional y puede presentarse entre el 1.° y el 5.° semestre. Se documenta en el <strong>PTIIT</strong> y se evalúa ante un jurado calificador.</p>
+        <button class="nav-btn" style="background:var(--idc-blue);color:#fff;border-color:var(--idc-blue);flex-shrink:0"
+          onclick="tutSyncDates();closeTutorial();scrollToSection('autofin-section',null);if(window.VR)VR.showScreen('generales')">
+          Ir a mi proyecto &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast" role="alert" aria-live="polite">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="#fff" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <span id="toastMsg"></span>
+</div>
+
+<!-- NAV — 7 items agrupados (Miller 7+/-2: chunking reducido de 11 a 7) -->
+<nav aria-label="Áreas" id="main-nav" style="position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(18px);border-bottom:2px solid var(--idc-blue);padding:0.7rem 1.5rem;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 12px rgba(0,114,185,0.10);">
+  <div style="display:flex;align-items:center;gap:0.5rem;">
+    <span style="font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--idc-blue);">IDC</span>
+    <span style="font-size:0.7rem;color:var(--c-muted);font-weight:600;">Investigación 2026</span>
+  </div>
+  <button onclick="scrollToNavSection()" style="font-size:0.78rem;font-weight:700;color:var(--idc-blue);background:transparent;cursor:pointer;text-decoration:none;padding:0.35rem 0.9rem;border:1.5px solid var(--idc-blue);border-radius:99px;transition:var(--transition);font-family:var(--font-body);" onmouseover="this.style.background='var(--idc-blue)';this.style.color='#fff';" onmouseout="this.style.background='transparent';this.style.color='var(--idc-blue)';">Menú de secciones ↓</button>
+</nav>
+
+<!-- INDICADOR DE SECCIÓN — ancla cognitiva (ACT-R: reduce memory decay) -->
+<div id="section-indicator" class="section-indicator" hidden aria-live="polite" role="status">
+  <span class="si-label">Sección:</span>
+  <span id="si-name" class="si-name"></span>
+  <button class="si-back-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Volver al inicio">
+    ↑ Inicio
+  </button>
+</div>
+
+<!-- BOTÓN VOLVER ARRIBA -->
+<button class="back-to-top" id="backToTopBtn" aria-label="Volver al inicio de la página"
+  onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+    <path d="M9 14V4M4 9l5-5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+<main id="main-content">
+  <div class="container">
+
+    <!-- HERO -->
+    <header class="hero" role="banner">
+      <img src="assets/logo-idc.jpg" alt="IDC Diseño & Comunicación — Instituto de Educación Superior Público" class="hero-logo" id="heroLogo" />
+
+      <div class="hero-badge" aria-label="Unidad de Investigación del IDC">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M4 6h4M6 4v4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        Unidad de Investigación del IDC
+      </div>
+
+      <h1>Líneas de <em>Investigación</em><br>e Innovación Tecnológica</h1>
+      <p class="hero-sub">
+        Convocatoria a estudiantes de 1.° a 5.° semestre de todas las especialidades para desarrollar investigación aplicada, creatividad y solución de problemas reales en el sector de diseño y comunicación.
+      </p>
+
+
+
+      <!-- STATS BAR -->
+      <div class="stats-bar" role="list" aria-label="Resumen estadístico">
+        <div class="stat-cell" role="listitem">
+          <div class="stat-num" style="color:var(--idc-blue)">4</div>
+          <div class="stat-label">Áreas Académicas</div>
+        </div>
+        <div class="stat-cell" role="listitem">
+          <div class="stat-num" style="color:var(--idc-orange)">20</div>
+          <div class="stat-label">Líneas por Área</div>
+        </div>
+        <div class="stat-cell" role="listitem">
+          <div class="stat-num" style="color:#8e44ad">6</div>
+          <div class="stat-label">Transversales</div>
+        </div>
+        <div class="stat-cell" role="listitem">
+          <div class="stat-num" style="color:#2ecc71">26</div>
+          <div class="stat-label">Total Líneas</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==========================================
+         NAVEGACIÓN PRINCIPAL POR ÁREAS
+         (Debajo del Hero — Diseño prominente con contexto)
+    =========================================== -->
+    <section id="main-nav-section" aria-labelledby="nav-section-title" style="margin-bottom:2.5rem;">
+      <div class="section-header" style="margin-bottom:1.2rem;">
+        <div>
+          <p class="section-kicker">Explora por especialidad</p>
+          <h2 id="nav-section-title">Áreas de Investigación</h2>
+        </div>
+      </div>
+
+      <p style="font-size:.9rem;color:var(--c-muted);max-width:680px;margin-bottom:1.5rem;line-height:1.6;">
+        Selecciona tu carrera para descubrir las líneas de investigación disponibles. Cada área está diseñada para desarrollar competencias específicas mediante proyectos reales que integran innovación, sostenibilidad y tecnología.
+      </p>
+
+      <div class="main-nav-grid">
+
+        <!-- INICIO -->
+        <a href="#" onclick="event.preventDefault(); window.scrollTo({top:0,behavior:'smooth'});" class="main-nav-card" style="--mn-color:var(--idc-blue);">
+          <div class="mn-icon">🏠</div>
+          <div class="mn-title">Inicio</div>
+          <div class="mn-desc">Vista general del programa de investigación e innovación tecnológica 2026.</div>
+          <div class="mn-tag" style="background:rgba(0,114,185,.1);color:#0072b9;">General</div>
+        </a>
+
+        <!-- INTERIORES -->
+        <a href="#areas-section" onclick="event.preventDefault(); scrollToArea('int');" class="main-nav-card" style="--mn-color:var(--idc-blue);">
+          <div class="mn-icon">🛋️</div>
+          <div class="mn-title">Interiores</div>
+          <div class="mn-desc">Espacios habitables, sostenibilidad ambiental y experiencia de usuario en interiorismo.</div>
+          <div class="mn-tag" style="background:rgba(0,114,185,.1);color:#0072b9;">Diseño de Interiores</div>
+        </a>
+
+        <!-- PUBLICITARIO -->
+        <a href="#areas-section" onclick="event.preventDefault(); scrollToArea('pub');" class="main-nav-card" style="--mn-color:var(--idc-orange);">
+          <div class="mn-icon">📢</div>
+          <div class="mn-title">Publicitario</div>
+          <div class="mn-desc">Comunicación estratégica, branding, campañas digitales y marketing creativo.</div>
+          <div class="mn-tag" style="background:rgba(243,161,0,.1);color:#a07000;">Diseño Publicitario</div>
+        </a>
+
+        <!-- MODAS -->
+        <a href="#areas-section" onclick="event.preventDefault(); scrollToArea('mod');" class="main-nav-card" style="--mn-color:#00a0c6;">
+          <div class="mn-icon">👗</div>
+          <div class="mn-title">Modas</div>
+          <div class="mn-desc">Diseño textil, sostenibilidad en moda, tendencias y producción de colecciones.</div>
+          <div class="mn-tag" style="background:rgba(0,160,198,.1);color:#007a96;">Diseño de Modas</div>
+        </a>
+
+        <!-- AUDIOVISUAL -->
+        <a href="#areas-section" onclick="event.preventDefault(); scrollToArea('cav');" class="main-nav-card" style="--mn-color:#2ecc71;">
+          <div class="mn-icon">🎬</div>
+          <div class="mn-title">Audiovisual</div>
+          <div class="mn-desc">Producción multimedia, cine, animación, realidad virtual y contenido digital.</div>
+          <div class="mn-tag" style="background:rgba(46,204,113,.1);color:#1a8a4a;">Comunicación Audiovisual</div>
+        </a>
+
+        <!-- MARCO ACADÉMICO -->
+        <a href="#trans-section" class="main-nav-card" style="--mn-color:#8e44ad;">
+          <div class="mn-icon">📚</div>
+          <div class="mn-title">Marco Académico</div>
+          <div class="mn-desc">Líneas transversales, convergencia interdisciplinaria, métricas ROI y metodología ABPP.</div>
+          <div class="mn-tag" style="background:rgba(142,68,173,.1);color:#8e44ad;">Transversal</div>
+        </a>
+
+        <!-- PROYECTO AUTOFINANCIADO -->
+        <a href="#autofin-section" class="main-nav-card" style="--mn-color:var(--idc-dark);">
+          <div class="mn-icon">💡</div>
+          <div class="mn-title">Proyecto Autofinanciado</div>
+          <div class="mn-desc">Guía para desarrollar tu proyecto de investigación con financiamiento propio y asesoría.</div>
+          <div class="mn-tag" style="background:rgba(84,84,82,.1);color:#545452;">Investigación</div>
+        </a>
+
+        <!-- BIBLIOGRAFÍA -->
+        <a href="#bib-section" class="main-nav-card" style="--mn-color:var(--idc-dark2);">
+          <div class="mn-icon">📖</div>
+          <div class="mn-title">Bibliografía</div>
+          <div class="mn-desc">Fuentes académicas, referencias institucionales y documentos de consulta.</div>
+          <div class="mn-tag" style="background:rgba(85,85,83,.1);color:#555553;">Referencia</div>
+        </a>
+      </div>
+    </section>
+
+
+
+    <!-- ==========================================
+         AREAS SECTION — TABS + ACCORDION
+    =========================================== -->
+    <section id="areas-section" aria-labelledby="areas-title" class="tab-system">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Por especialidad — 2026</p>
+          <h2 id="areas-title">Líneas de Investigación por Área</h2>
+        </div>
+      </div>
+
+      <!-- TAB BAR -->
+      <div class="tab-bar" role="tablist" aria-label="Áreas académicas">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-int" id="tbtn-int"
+          style="--tb-color:#0072b9" onclick="switchTab('int',this)">
+          <span class="tb-dot"></span>Diseño Interiores
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-pub" id="tbtn-pub"
+          style="--tb-color:#f3a100" onclick="switchTab('pub',this)">
+          <span class="tb-dot"></span>Diseño Publicitario
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-mod" id="tbtn-mod"
+          style="--tb-color:#00a0c6" onclick="switchTab('mod',this)">
+          <span class="tb-dot"></span>Diseño de Modas
+        </button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-cav" id="tbtn-cav"
+          style="--tb-color:#2ecc71" onclick="switchTab('cav',this)">
+          <span class="tb-dot"></span>Comunicación Audiovisual
+        </button>
+      </div>
+
+      <!-- TAB PANES (built by JS) -->
+      <div id="tab-int" class="tab-pane active" role="tabpanel" aria-labelledby="tbtn-int"><div class="acc-list" id="acc-int"></div></div>
+      <div id="tab-pub" class="tab-pane"         role="tabpanel" aria-labelledby="tbtn-pub"><div class="acc-list" id="acc-pub"></div></div>
+      <div id="tab-mod" class="tab-pane"         role="tabpanel" aria-labelledby="tbtn-mod"><div class="acc-list" id="acc-mod"></div></div>
+      <div id="tab-cav" class="tab-pane"         role="tabpanel" aria-labelledby="tbtn-cav"><div class="acc-list" id="acc-cav"></div></div>
+    </section>
+
+    <!-- ==========================================
+         GANTT CHART
+    =========================================== -->
+    <section id="gantt-section" class="gantt-section reveal" aria-labelledby="gantt-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Cronograma institucional — 10 meses · Marzo–Diciembre 2026</p>
+          <h2 id="gantt-title"> Programa IDC 2026</h2>
+        </div>
+      </div>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;font-size:.78rem;" aria-label="Leyenda del Gantt">
+        <div style="display:flex;align-items:center;gap:.4rem;"><span style="width:14px;height:14px;border-radius:3px;background:#0072b9;flex-shrink:0;display:inline-block"></span><span style="color:var(--c-muted)">Preparación institucional</span></div>
+        <div style="display:flex;align-items:center;gap:.4rem;"><span style="width:14px;height:14px;border-radius:3px;background:#00a0c6;flex-shrink:0;display:inline-block"></span><span style="color:var(--c-muted)">Lanzamiento de proyectos</span></div>
+        <div style="display:flex;align-items:center;gap:.4rem;"><span style="width:14px;height:14px;border-radius:3px;background:#2ecc71;flex-shrink:0;display:inline-block"></span><span style="color:var(--c-muted)">Ejecución activa (Fases 3)</span></div>
+        <div style="display:flex;align-items:center;gap:.4rem;"><span style="width:14px;height:14px;border-radius:3px;background:#8e44ad;flex-shrink:0;display:inline-block"></span><span style="color:var(--c-muted)">Cierre y socialización</span></div>
+        <div style="display:flex;align-items:center;gap:.4rem;"><span style="width:14px;height:14px;border-radius:3px;background:#545452;flex-shrink:0;display:inline-block"></span><span style="color:var(--c-muted)">Evaluación e institucionalización</span></div>
+        <span style="color:var(--idc-orange);font-weight:700;margin-left:auto">↑ Clic en cada barra para ver detalle</span>
+      </div>
+      <div class="gantt-wrap">
+        <div class="gantt-head">
+          <div>Fase / Actividad</div>
+          <div class="gantt-months">
+            <span>Mar</span><span>Abr</span><span>May</span><span>Jun</span>
+            <span>Jul</span><span>Ago</span><span>Sep</span><span>Oct</span>
+            <span>Nov</span><span>Dic</span>
+          </div>
+        </div>
+        <!-- rows injected by JS -->
+        <div id="ganttRows"></div>
+      </div>
+      <div style="margin-top:.9rem;padding:.75rem 1rem;background:#fff;border:1.5px solid var(--c-border);border-radius:var(--radius-sm);font-size:.75rem;color:var(--c-muted);line-height:1.6;box-shadow:var(--shadow-card);">
+        <strong style="color:var(--c-text)">Lectura del Gantt:</strong>
+        Las filas con "↳" (Fase 1 y Fase 2) son sub-actividades que ocurren <em>dentro</em> del bloque "Lanzamiento piloto".
+        El <strong>ciclo ABPP de 12 semanas</strong> por proyecto transcurre entre mayo y septiembre (meses 3–7 del Gantt).
+        Los 2 meses previos (marzo–abril) son de preparación institucional, y los 3 meses finales (octubre–diciembre)
+        son de evaluación y escalamiento — ambos a cargo de la dirección del IDC, no de los equipos estudiantiles.
+        <strong style="color:var(--idc-blue)">Total programa: 10 meses · Ciclo estudiantil activo: 5 meses (12 semanas de ejecución por proyecto).</strong>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PROPOSED RESEARCH THEMES
+    =========================================== -->
+    <section id="themes-section" class="themes-section reveal" aria-labelledby="themes-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Propuesta de temas de investigación aplicada</p>
+          <h2 id="themes-title">Temas Asociados a Innovación Tecnológica</h2>
+        </div>
+      </div>
+      <div class="themes-tabs" role="tablist">
+        <button class="theme-tab-btn active" onclick="switchTheme('all',this)">Todas las carreras</button>
+        <button class="theme-tab-btn" onclick="switchTheme('int',this)">Interiores</button>
+        <button class="theme-tab-btn" onclick="switchTheme('pub',this)">Publicitario</button>
+        <button class="theme-tab-btn" onclick="switchTheme('mod',this)">Modas</button>
+        <button class="theme-tab-btn" onclick="switchTheme('cav',this)">Audiovisual</button>
+      </div>
+      <div id="theme-all" class="theme-pane active" aria-label="Todos los temas"></div>
+      <div id="theme-int" class="theme-pane" aria-label="Temas Interiores"></div>
+      <div id="theme-pub" class="theme-pane" aria-label="Temas Publicitario"></div>
+      <div id="theme-mod" class="theme-pane" aria-label="Temas Modas"></div>
+      <div id="theme-cav" class="theme-pane" aria-label="Temas Audiovisual"></div>
+    </section>
+    <!-- ==========================================
+         CRITERIA FOR INNOVATION PROJECTS
+    =========================================== -->
+    <section class="criteria-section reveal" aria-labelledby="crit-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Proyectos de Innovación Tecnológica</p>
+          <h2 id="crit-title">Criterios por Carrera</h2>
+        </div>
+      </div>
+      <div class="criteria-grid" id="criteriaGrid"></div>
+    </section>
+
+    <!-- ==========================================
+         INVESTMENT / ROI SECTION
+    =========================================== -->
+    <section id="invest-section" class="invest-section reveal" aria-labelledby="invest-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Contexto de Inversión en Innovación</p>
+          <h2 id="invest-title">Indicadores Clave: ROAS · CAC · LTV</h2>
+        </div>
+      </div>
+
+      <div class="roi-grid">
+        <div class="roi-card reveal" style="--roi-color:var(--idc-blue)">
+          <div class="roi-acronym">ROAS</div>
+          <div class="roi-full">Return on Ad Spend</div>
+          <p class="roi-desc">Retorno de inversión publicitaria. Mide cuánto dinero generó cada sol invertido en una campaña específica (Facebook Ads, Google, plataformas digitales). Es el indicador primario para proyectos de Diseño Publicitario e innovación en medios digitales.</p>
+        </div>
+        <div class="roi-card reveal" style="--roi-color:var(--idc-orange)">
+          <div class="roi-acronym">CAC</div>
+          <div class="roi-full">Customer Acquisition Cost</div>
+          <p class="roi-desc">Costo de Adquisición de Clientes. Mide cuánto cuesta convertir un prospecto en cliente. Un CAC elevado impacta negativamente el ROI. Relevante para proyectos de branding, identidad corporativa y comunicación audiovisual orientada a conversión.</p>
+        </div>
+        <div class="roi-card reveal" style="--roi-color:#2ecc71">
+          <div class="roi-acronym">LTV</div>
+          <div class="roi-full">Customer Lifetime Value</div>
+          <p class="roi-desc">Valor de Vida del Cliente. Monto total que un cliente aporta durante toda su relación con la marca. Esencial para proyectos de moda sostenible, diseño de espacios comerciales y comunicación transmedia con enfoque en fidelización.</p>
+        </div>
+      </div>
+
+      <div class="roi-rule reveal" role="note" aria-label="Regla de oro de inversión">
+        <span class="roi-rule-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="12" fill="rgba(243,161,0,.15)" stroke="var(--idc-orange)" stroke-width="1.5"/><path d="M10 14l3 3 5-5" stroke="var(--idc-orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <p class="roi-rule-text">
+          <strong>Regla de Oro del ROI Sostenible:</strong> Para que un proyecto de innovación tecnológica sea exitoso a largo plazo,
+          el <strong>LTV</strong> (valor de vida del cliente) debe ser significativamente mayor que el <strong>CAC</strong> (costo de adquisición).
+          Si LTV &gt; 3× CAC, el proyecto demuestra viabilidad económica. Aplicar esta lógica a cada línea de investigación
+          permite fundamentar decisiones de inversión en tecnología con respaldo empírico
+          <em>(Koç, 2025; UNCTAD, 2025; Quispe, 2024)</em>.
+        </p>
+      </div>
+
+      <!-- SCHEMA CARDS ROAS / CAC / LTV -->
+      <div class="schema-grid reveal" style="margin-top:1.5rem;" aria-label="Indicadores de rentabilidad">
+
+        <!-- ROAS -->
+        <div class="schema-card" style="--sc:#0072b9" role="article" aria-label="ROAS: Retorno sobre inversión publicitaria">
+          <div class="schema-header">
+            <div class="schema-sigla" aria-hidden="true">ROAS</div>
+            <div class="schema-header-meta">
+              <div class="schema-fullname">Return on Ad Spend</div>
+              <span class="schema-career-tag">Diseño Publicitario</span>
+            </div>
+          </div>
+          <div class="schema-flow" aria-label="Fórmula ROAS">
+            <div class="sf-box">Ingresos<br>de campaña</div>
+            <div class="sf-op">÷</div>
+            <div class="sf-box">Costo de<br>campaña</div>
+            <div class="sf-op">×100</div>
+            <div class="sf-box sf-result">= ROAS %</div>
+          </div>
+          <div class="schema-scale" aria-label="Escala de interpretación">
+            <div class="ss-item ss-danger"><div class="ss-val">&lt;100%</div><div class="ss-label">Pérdida</div></div>
+            <div class="ss-item ss-ok"><div class="ss-val">100–150%</div><div class="ss-label">Límite</div></div>
+            <div class="ss-item ss-good"><div class="ss-val">150–400%</div><div class="ss-label">Aceptable</div></div>
+            <div class="ss-item ss-great"><div class="ss-val">≥ 400%</div><div class="ss-label">Sobresaliente</div></div>
+          </div>
+          <div class="schema-example">
+            <strong>Ejemplo IDC:</strong> Campaña Instagram S/ 1 000 → ventas S/ 5 000<br>
+            ROAS = 5 000 ÷ 1 000 × 100 = <strong>500%</strong> (ratio 5:1) ✓ Sobresaliente
+          </div>
+          <div class="schema-rule">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 1.5l1.3 2.7 3 .4-2.2 2.1.5 3-2.6-1.4-2.6 1.4.5-3-2.2-2.1 3-.4z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            Meta mínima piloto IDC: ROAS ≥ 150% para aprobar el proyecto productivo
+          </div>
+        </div>
+
+        <!-- CAC -->
+        <div class="schema-card" style="--sc:#f3a100" role="article" aria-label="CAC: Costo de adquisición de cliente">
+          <div class="schema-header">
+            <div class="schema-sigla" aria-hidden="true">CAC</div>
+            <div class="schema-header-meta">
+              <div class="schema-fullname">Customer Acquisition Cost</div>
+              <span class="schema-career-tag">Todas las carreras</span>
+            </div>
+          </div>
+          <div class="schema-flow" aria-label="Fórmula CAC">
+            <div class="sf-box">Costo total<br>marketing + ventas</div>
+            <div class="sf-op">÷</div>
+            <div class="sf-box">N.° clientes<br>nuevos</div>
+            <div class="sf-op">=</div>
+            <div class="sf-box sf-result">CAC (S/)</div>
+          </div>
+          <div class="schema-scale" aria-label="Escala de interpretación">
+            <div class="ss-item ss-great"><div class="ss-val">Bajo</div><div class="ss-label">&lt;15% ticket</div></div>
+            <div class="ss-item ss-good"><div class="ss-val">Medio</div><div class="ss-label">15–30% ticket</div></div>
+            <div class="ss-item ss-ok"><div class="ss-val">Alto</div><div class="ss-label">30–50% ticket</div></div>
+            <div class="ss-item ss-danger"><div class="ss-val">Crítico</div><div class="ss-label">&gt;50% ticket</div></div>
+          </div>
+          <div class="schema-example">
+            <strong>Ejemplo IDC:</strong> S/ 2 000 en publicidad → 50 clientes nuevos<br>
+            CAC = 2 000 ÷ 50 = <strong>S/ 40</strong> · Si ticket = S/ 200 → CAC es 20% ✓ Medio-bajo
+          </div>
+          <div class="schema-rule">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 1.5l1.3 2.7 3 .4-2.2 2.1.5 3-2.6-1.4-2.6 1.4.5-3-2.2-2.1 3-.4z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            CAC máximo aceptable: 30% del valor promedio de compra del cliente
+          </div>
+        </div>
+
+        <!-- LTV -->
+        <div class="schema-card" style="--sc:#2ecc71" role="article" aria-label="LTV: Valor de vida del cliente">
+          <div class="schema-header">
+            <div class="schema-sigla" aria-hidden="true">LTV</div>
+            <div class="schema-header-meta">
+              <div class="schema-fullname">Customer Lifetime Value</div>
+              <span class="schema-career-tag">D. Modas · Interiores</span>
+            </div>
+          </div>
+          <div class="schema-flow" aria-label="Fórmula LTV">
+            <div class="sf-box">Compra<br>promedio</div>
+            <div class="sf-op">×</div>
+            <div class="sf-box">Frecuencia<br>anual</div>
+            <div class="sf-op">×</div>
+            <div class="sf-box">Años de<br>relación</div>
+            <div class="sf-op">=</div>
+            <div class="sf-box sf-result">LTV (S/)</div>
+          </div>
+          <div class="schema-scale" aria-label="Regla de oro LTV vs CAC">
+            <div class="ss-item ss-danger"><div class="ss-val">LTV &lt; CAC</div><div class="ss-label">Insostenible</div></div>
+            <div class="ss-item ss-ok"><div class="ss-val">LTV = 1–2× CAC</div><div class="ss-label">Límite</div></div>
+            <div class="ss-item ss-good"><div class="ss-val">LTV = 2–3× CAC</div><div class="ss-label">Viable</div></div>
+            <div class="ss-item ss-great"><div class="ss-val">LTV ≥ 3× CAC</div><div class="ss-label">✓ Regla de oro</div></div>
+          </div>
+          <div class="schema-example">
+            <strong>Ejemplo IDC:</strong> S/ 200 × 4 compras/año × 3 años = <strong>LTV S/ 2 400</strong><br>
+            Si CAC = S/ 40 → LTV/CAC = 60× ✓ Modelo de negocio altamente rentable
+          </div>
+          <div class="schema-rule">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 1.5l1.3 2.7 3 .4-2.2 2.1.5 3-2.6-1.4-2.6 1.4.5-3-2.2-2.1 3-.4z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            Regla de oro: LTV debe ser al menos 3× mayor que el CAC
+          </div>
+        </div>
+
+      </div><!-- /schema-grid -->
+
+      <!-- METRICS TABLE BY CAREER -->
+      <div class="metrics-table-wrap reveal" style="margin-top:1.4rem;" role="region" aria-label="Métricas por carrera">
+        <div class="section-kicker" style="margin-bottom:.7rem">Aplicación de métricas por carrera profesional</div>
+        <div class="metrics-table" role="table" aria-label="Tabla de métricas por carrera">
+          <div class="mt-head" role="row">
+            <div role="columnheader">Carrera</div>
+            <div role="columnheader">Métrica principal</div>
+            <div role="columnheader">Umbral mínimo</div>
+            <div role="columnheader">Nivel sobresaliente</div>
+          </div>
+          <div class="mt-row" role="row" style="--mr:#0072b9">
+            <div role="cell"><strong>Diseño Publicitario</strong></div>
+            <div role="cell"><span class="metric-badge" style="background:rgba(0,114,185,.1);color:#0072b9">ROAS + CAC</span></div>
+            <div role="cell">ROAS 150% · CAC &lt; 30% val. compra</div>
+            <div role="cell" style="color:#0072b9;font-weight:700">ROAS ≥ 400%</div>
+          </div>
+          <div class="mt-row" role="row" style="--mr:#00a0c6">
+            <div role="cell"><strong>Diseño de Modas</strong></div>
+            <div role="cell"><span class="metric-badge" style="background:rgba(0,160,198,.1);color:#00a0c6">LTV + Margen</span></div>
+            <div role="cell">Margen ≥ 25% · Recompra ≥ 15%</div>
+            <div role="cell" style="color:#00a0c6;font-weight:700">Margen ≥ 40%</div>
+          </div>
+          <div class="mt-row" role="row" style="--mr:#f3a100">
+            <div role="cell"><strong>Diseño de Interiores</strong></div>
+            <div role="cell"><span class="metric-badge" style="background:rgba(243,161,0,.1);color:#f3a100">ROI + NPS</span></div>
+            <div role="cell">Ventas +15% · NPS ≥ 50</div>
+            <div role="cell" style="color:#f3a100;font-weight:700">NPS ≥ 70</div>
+          </div>
+          <div class="mt-row" role="row" style="--mr:#2ecc71">
+            <div role="cell"><strong>Com. Audiovisual</strong></div>
+            <div role="cell"><span class="metric-badge" style="background:rgba(46,204,113,.1);color:#2ecc71">CPV + Engagement</span></div>
+            <div role="cell">Engagement ≥ 2.5% · CPV bajo</div>
+            <div role="cell" style="color:#2ecc71;font-weight:700">Engagement ≥ 5%</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ==========================================
+         METHODOLOGY SECTION — ABPP
+    =========================================== -->
+    <section id="methodology-section" class="methodology-section reveal" aria-labelledby="meth-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Modelo pedagógico — Aprendizaje Basado en Proyectos Productivos</p>
+          <h2 id="meth-title">Metodología ABPP: 4 Fases (12 semanas por proyecto)</h2>
+        </div>
+      </div>
+
+      <!-- RELATIONSHIP DIAGRAM: 12 semanas vs 10 meses -->
+      <div class="timeline-rel reveal" role="note" aria-label="Relación entre ciclo de proyecto y programa institucional">
+        <div class="trl-title">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.4"/><path d="M7 4.5v2.5l1.5 1.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          ¿Por qué 12 semanas y 10 meses? — Dos escalas de tiempo diferentes y complementarias
+        </div>
+        <div class="trl-grid">
+          <div class="trl-box trl-box-a">
+            <div class="trl-box-label">Ciclo ABPP — por proyecto estudiantil</div>
+            <div class="trl-box-num">12 sem.</div>
+            <div class="trl-box-desc">
+              Es la duración de <strong>cada proyecto individual</strong> ejecutado por un equipo de estudiantes.
+              Las 4 fases (Briefing → Prototipado → Ejecución → Socialización) suceden dentro de un semestre académico.
+              Todos los proyectos piloto corren <strong>en paralelo</strong> dentro de la ventana mayo–septiembre.
+            </div>
+          </div>
+          <div class="trl-arrow">
+            <svg class="trl-arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M15 8l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="trl-arrow-text">se ejecuta<br>dentro de</span>
+          </div>
+          <div class="trl-box trl-box-b">
+            <div class="trl-box-label">Programa institucional IDC 2026</div>
+            <div class="trl-box-num">10 meses</div>
+            <div class="trl-box-desc">
+              Es la duración del <strong>programa completo</strong> del Instituto: incluye 2 meses de preparación docente
+              y alianzas (mar–abr), 5 meses de proyectos activos (may–sep) y 3 meses de evaluación e
+              institucionalización (oct–dic). El Gantt muestra este horizonte macro.
+            </div>
+          </div>
+        </div>
+        <!-- Calendar mapping -->
+        <div class="trl-nest" aria-label="Correspondencia entre semanas del proyecto y meses del calendario">
+          <div class="trl-nest-item">
+            <div class="trl-nest-month">Mar–Abr</div>
+            <div class="trl-nest-phase">Preparación institucional</div>
+            <div class="trl-nest-week">Previo al ciclo ABPP</div>
+          </div>
+          <div class="trl-nest-item" style="border:1.5px solid rgba(0,114,185,.3);background:rgba(0,114,185,.06)">
+            <div class="trl-nest-month" style="color:#0072b9">Mayo · Sem 1–2</div>
+            <div class="trl-nest-phase">Fase 1: Briefing</div>
+            <div class="trl-nest-week">2 semanas</div>
+          </div>
+          <div class="trl-nest-item" style="border:1.5px solid rgba(243,161,0,.3);background:rgba(243,161,0,.06)">
+            <div class="trl-nest-month" style="color:#b37600">May–Jun · Sem 3–5</div>
+            <div class="trl-nest-phase">Fase 2: Prototipado IA</div>
+            <div class="trl-nest-week">3 semanas</div>
+          </div>
+          <div class="trl-nest-item" style="border:1.5px solid rgba(0,160,198,.3);background:rgba(0,160,198,.06)">
+            <div class="trl-nest-month" style="color:#007a96">Jun–Ago · Sem 6–10</div>
+            <div class="trl-nest-phase">Fase 3: Ejecución</div>
+            <div class="trl-nest-week">5 semanas</div>
+          </div>
+          <div class="trl-nest-item" style="border:1.5px solid rgba(46,204,113,.3);background:rgba(46,204,113,.06)">
+            <div class="trl-nest-month" style="color:#1a8a4a">Sep · Sem 11–12</div>
+            <div class="trl-nest-phase">Fase 4: Socialización</div>
+            <div class="trl-nest-week">2 semanas</div>
+          </div>
+          <div class="trl-nest-item">
+            <div class="trl-nest-month">Oct–Dic</div>
+            <div class="trl-nest-phase">Escalamiento institucional</div>
+            <div class="trl-nest-week">Posterior al ciclo ABPP</div>
+          </div>
+        </div>
+        <div class="trl-note">
+          <strong>Conclusión:</strong> No hay inconsistencia — son dos vistas complementarias del mismo programa.
+          Las <strong>12 semanas del ABPP</strong> describen el ciclo académico de cada estudiante (mayo–septiembre).
+          Los <strong>10 meses del Gantt</strong> describen el ciclo institucional completo (marzo–diciembre),
+          que incluye 2 meses de preparación y 3 meses de evaluación y escalamiento que los estudiantes no ejecutan directamente.
+        </div>
+      </div>
+
+      <div class="phases-track" role="list" aria-label="Fases del proyecto productivo">
+
+        <div class="phase-card reveal" role="listitem" style="--ph:#0072b9">
+          <div class="phase-num" aria-hidden="true">01</div>
+          <div class="phase-content">
+            <div class="phase-period">Sem. 1–2 · Mayo 2026</div>
+            <h3 class="phase-title">Briefing y Diagnóstico Estratégico</h3>
+            <p class="phase-desc">Reunión con cliente real o stakeholder. Investigación de mercado, análisis de competencia y definición de objetivos medibles con hipótesis de impacto cuantificada.</p>
+            <div class="phase-tools">
+              <span class="tool-tag">Google Trends</span>
+              <span class="tool-tag">Meta Business Suite</span>
+              <span class="tool-tag">ChatGPT / Claude</span>
+            </div>
+            <div class="phase-output">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 5.5h6M3 7.5h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+              Entregable: Estrategia creativa con hipótesis ROAS/CAC objetivo
+            </div>
+          </div>
+        </div>
+
+        <div class="phase-connector" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10h10M12 7l3 3-3 3" stroke="var(--idc-blue)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+
+        <div class="phase-card reveal" role="listitem" style="--ph:#f3a100">
+          <div class="phase-num" aria-hidden="true">02</div>
+          <div class="phase-content">
+            <div class="phase-period">Sem. 3–5 · May–Jun 2026</div>
+            <h3 class="phase-title">Prototipado Rápido y Validación con IA</h3>
+            <p class="phase-desc">Creación de 3–5 variantes creativas con IA generativa. Pruebas A/B con públicos reales. Iteración basada en datos del mejor prototipo inicial.</p>
+            <div class="phase-tools">
+              <span class="tool-tag">Midjourney / DALL-E</span>
+              <span class="tool-tag">Runway / Sora</span>
+              <span class="tool-tag">Clo3D / SketchUp</span>
+            </div>
+            <div class="phase-output">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 5.5h6M3 7.5h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+              Entregable: Portafolio de variantes con reporte de validación A/B
+            </div>
+          </div>
+        </div>
+
+        <div class="phase-connector" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10h10M12 7l3 3-3 3" stroke="var(--idc-blue)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+
+        <div class="phase-card reveal" role="listitem" style="--ph:#00a0c6">
+          <div class="phase-num" aria-hidden="true">03</div>
+          <div class="phase-content">
+            <div class="phase-period">Sem. 6–10 · Jun–Ago 2026</div>
+            <h3 class="phase-title">Ejecución y Monitoreo en Tiempo Real</h3>
+            <p class="phase-desc">Lanzamiento de campaña/colección/espacio/contenido. Monitoreo diario con dashboards automáticos. Sprints de optimización semanal con decisiones basadas en evidencia.</p>
+            <div class="phase-tools">
+              <span class="tool-tag">Looker Studio</span>
+              <span class="tool-tag">Hotjar / Clarity</span>
+              <span class="tool-tag">Notion / Trello</span>
+            </div>
+            <div class="phase-output">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 5.5h6M3 7.5h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+              Entregable: Dashboard automatizado con métricas ROAS/CAC en vivo
+            </div>
+          </div>
+        </div>
+
+        <div class="phase-connector" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 10h10M12 7l3 3-3 3" stroke="var(--idc-blue)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+
+        <div class="phase-card reveal" role="listitem" style="--ph:#2ecc71">
+          <div class="phase-num" aria-hidden="true">04</div>
+          <div class="phase-content">
+            <div class="phase-period">Sem. 11–12 · Septiembre 2026</div>
+            <h3 class="phase-title">Análisis de Resultados y Socialización</h3>
+            <p class="phase-desc">Cierre de proyecto, cálculo definitivo de métricas, análisis crítico post-mortem. Presentación pública ante cliente, docentes y pares. Publicación en portafolio digital IDC.</p>
+            <div class="phase-tools">
+              <span class="tool-tag">Google Analytics</span>
+              <span class="tool-tag">Shopify Analytics</span>
+              <span class="tool-tag">Portafolio IDC</span>
+            </div>
+            <div class="phase-output">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><rect x="1" y="1" width="10" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M3 5.5h6M3 7.5h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+              Entregable: Informe de Rentabilidad Creativa (activo profesional de portafolio)
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /phases-track -->
+    </section>
+
+    <!-- ==========================================
+         EVALUATION RUBRIC
+    =========================================== -->
+    <section id="rubric-section" class="rubric-section reveal" aria-labelledby="rubric-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Sistema de evaluación académica</p>
+          <h2 id="rubric-title">Rúbrica de Evaluación con Componente Financiero</h2>
+        </div>
+      </div>
+
+      <div class="rubric-grid">
+        <div class="rubric-card reveal" style="--rc:#0072b9">
+          <div class="rubric-weight" aria-label="Peso 40%">40%</div>
+          <div class="rubric-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M4 19c0-4 3-6 7-6s7 2 7 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="rubric-title">Calidad Creativa y Técnica</h3>
+          <ul class="rubric-items">
+            <li>Originalidad conceptual</li>
+            <li>Dominio de herramientas tecnológicas</li>
+            <li>Coherencia estética y narrativa</li>
+            <li>Calidad de ejecución final</li>
+          </ul>
+          <div class="rubric-note">La excelencia de diseño sigue siendo el criterio nuclear de las carreras</div>
+        </div>
+
+        <div class="rubric-card reveal" style="--rc:#f3a100">
+          <div class="rubric-weight" aria-label="Peso 35%">35%</div>
+          <div class="rubric-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 16l4-6 3 3 4-7 4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="rubric-title">Desempeño Financiero y Estratégico</h3>
+          <ul class="rubric-items">
+            <li>Cumplimiento de ROAS / CAC / LTV objetivo</li>
+            <li>Eficiencia en uso de presupuesto</li>
+            <li>Toma de decisiones basada en datos</li>
+            <li>Capacidad de iteración y ajuste</li>
+          </ul>
+          <div class="rubric-note">Elemento diferenciador que prepara para el mercado real</div>
+        </div>
+
+        <div class="rubric-card reveal" style="--rc:#8e44ad">
+          <div class="rubric-weight" aria-label="Peso 25%">25%</div>
+          <div class="rubric-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M6 12l3 3 7-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="rubric-title">Proceso de Trabajo e Innovación</h3>
+          <ul class="rubric-items">
+            <li>Gestión de proyecto y plazos</li>
+            <li>Integración de IA y automatización</li>
+            <li>Documentación rigurosa del proceso</li>
+            <li>Reflexión crítica y aprendizajes</li>
+          </ul>
+          <div class="rubric-note">El fracaso medible es más valioso que el éxito ficticio</div>
+        </div>
+      </div>
+
+      <!-- Success indicators -->
+      <div class="success-bar reveal" role="region" aria-label="Indicadores de éxito institucional 2026">
+        <div class="success-title">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5l1.8 3.6L14 6l-3 2.9.7 4.1L8 11l-3.7 2L5 8.9 2 6l4.2-.9z" stroke="var(--idc-orange)" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          Indicadores de Éxito Institucional — Meta 2026
+        </div>
+        <div class="success-items">
+          <div class="success-item">
+            <span class="success-num" style="color:#0072b9">≥60%</span>
+            <span class="success-label">Proyectos con ROAS positivo</span>
+          </div>
+          <div class="success-item">
+            <span class="success-num" style="color:#f3a100">10</span>
+            <span class="success-label">Casos de éxito documentados</span>
+          </div>
+          <div class="success-item">
+            <span class="success-num" style="color:#2ecc71">≥60</span>
+            <span class="success-label">NPS de clientes</span>
+          </div>
+          <div class="success-item">
+            <span class="success-num" style="color:#8e44ad">≥3</span>
+            <span class="success-label">Emprendimientos post-proyecto</span>
+          </div>
+          <div class="success-item">
+            <span class="success-num" style="color:#00a0c6">5K+</span>
+            <span class="success-label">Impresiones en medios/RRSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         BUDGET / INVESTMENT PILOT
+    =========================================== -->
+    <!-- ==========================================
+         BUDGET — DETAILED EXPLANATION
+    =========================================== -->
+    <section id="budget-section" class="budget-explain-section reveal" aria-labelledby="budget-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Fase piloto 2026 — Inversión inicial detallada</p>
+          <h2 id="budget-title">Presupuesto y Fondo Semilla: ¿Qué cubre cada sol?</h2>
+        </div>
+      </div>
+
+      <!-- WHY BOX -->
+      <div class="budget-why reveal">
+        <span class="budget-why-icon" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        <p class="budget-why-text">
+          <strong>¿Por qué S/ 10 000 y no más o menos?</strong> El monto se calculó como el mínimo suficiente para generar
+          <strong>evidencia real de mercado</strong> en los 10 proyectos piloto: cubrir el costo de adquisición de los primeros
+          clientes reales (CAC), el presupuesto de medios digitales (ROAS medible) o los materiales de producción mínimos
+          para ejecutar campañas, colecciones, rediseños o contenidos que puedan ser evaluados con métricas cuantificables.
+          <strong>No es un presupuesto de operación institucional</strong> — los costos de docentes, infraestructura y licencias
+          básicas ya están cubiertos por el IDC. Es exclusivamente el <strong>capital semilla de validación de mercado</strong>
+          que convierte un proyecto académico en un proyecto productivo verificable. La lógica es la misma que en una startup:
+          el fondo semilla sirve para probar hipótesis, no para operar a escala.
+        </p>
+      </div>
+
+      <!-- EXPANDABLE BREAKDOWN CARDS -->
+      <div class="bexp-list" id="bexpList"></div>
+
+      <!-- SOFTWARE BREAKDOWN -->
+      <div class="section-header" style="margin-top:2rem;margin-bottom:1rem;">
+        <div>
+          <p class="section-kicker">Inversión en infraestructura tecnológica</p>
+          <h3 style="font-family:var(--font-display);font-size:1.3rem;font-weight:700;color:var(--idc-dark)">Software IA Complementario — S/ 7 500 / año</h3>
+        </div>
+      </div>
+      <div class="budget-why reveal" style="border-color:var(--idc-blue)">
+        <span style="color:var(--idc-blue);flex-shrink:0;margin-top:.1rem;" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="3" y="5" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 10l2 1.5-2 1.5M12 13h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <p class="budget-why-text">
+          <strong>¿Por qué S/ 7 500 en software y no usar solo herramientas gratuitas?</strong>
+          El IDC ya cuenta con Adobe Creative Cloud para todas las carreras. Los S/ 7 500 cubren el
+          <strong>stack de IA especializado</strong> que no tiene equivalente gratuito profesional:
+          software de simulación 3D de prendas (Clo3D), generación de video con IA (Runway),
+          síntesis de voz profesional (ElevenLabs) y visualización arquitectónica en tiempo real (SketchUp+Enscape).
+          Sin estas herramientas, los proyectos se limitan a producción convencional y pierden el componente de
+          <strong>innovación tecnológica aplicada</strong> que justifica el proyecto. El costo anual equivale a
+          S/ 375 por aula — menos que una suscripción mensual de Adobe CC para un solo docente.
+        </p>
+      </div>
+      <div class="sw-explain-card reveal">
+        <div class="sw-explain-head">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="12" height="10" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M5.5 7.5l1.5 1.5 3-3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Desglose de licencias de Software IA — Justificación por carrera
+        </div>
+        <table class="sw-items" aria-label="Desglose de software">
+          <thead><tr>
+            <th>Software</th><th>Carrera(s) que lo usa</th><th>¿Para qué sirve?</th><th>Costo anual estimado</th><th>Alternativa gratuita y sus limitaciones</th>
+          </tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Clo3D</strong> <span class="sw-tag sw-tag-edu">Lic. educativa</span></td>
+              <td>Diseño de Modas</td>
+              <td>Simulación física de prendas en 3D antes de cortar tela. Elimina el 60–70% del costo de muestreo físico. Permite validar patronaje, caída de tela y colores sin producción real.</td>
+              <td>S/ 2 200</td>
+              <td>No existe equivalente gratuito. Browzwear es más caro. Usar Clo3D sin licencia = riesgo legal y sin soporte técnico.</td>
+            </tr>
+            <tr>
+              <td><strong>Runway Gen-3</strong> <span class="sw-tag sw-tag-paid">Plan básico</span></td>
+              <td>Comunicación Audiovisual</td>
+              <td>Generación de video con IA: B-roll sintético, motion graphics, efectos visuales que costarían equipos de S/ 50 000+ en producción convencional. Permite proyectos audiovisuales de bajo presupuesto con acabado profesional.</td>
+              <td>S/ 1 800</td>
+              <td>La versión gratuita tiene marca de agua, límite de 5 seg. y resolución reducida. Inviable para proyectos presentables a clientes reales.</td>
+            </tr>
+            <tr>
+              <td><strong>ElevenLabs Creator</strong> <span class="sw-tag sw-tag-paid">Plan Creator</span></td>
+              <td>Comunicación Audiovisual · Publicidad</td>
+              <td>Síntesis de voz profesional en off con calidad de estudio. Elimina el costo de locutores (S/ 150–400 por sesión). Permite producir voces en quechua, inglés y español con entonación natural para campañas y documentales.</td>
+              <td>S/ 900</td>
+              <td>Versión gratuita: 10 000 caracteres/mes (≈ 5 minutos de audio). Insuficiente para proyectos reales. La calidad de TTS gratuito (Google, Amazon) es notablemente inferior para producciones finales.</td>
+            </tr>
+            <tr>
+              <td><strong>SketchUp Pro + Enscape</strong> <span class="sw-tag sw-tag-edu">Lic. educativa</span></td>
+              <td>Diseño de Interiores</td>
+              <td>Modelado 3D + render fotorrealista en tiempo real para visualizaciones de interiores. Permite presentar rediseños de espacios comerciales a clientes con imágenes de calidad arquitectónica antes de ejecutar la obra. Ahorra S/ 500–2000 por proyecto en renders externos.</td>
+              <td>S/ 1 600</td>
+              <td>SketchUp Free no tiene render ni exportación a formatos profesionales. Blender es gratuito pero requiere meses de curva de aprendizaje — inviable para proyectos semestrales.</td>
+            </tr>
+            <tr style="background:color-mix(in srgb,var(--idc-blue) 4%,transparent)">
+              <td colspan="3"><strong>Total anual software IA complementario</strong><br><small style="color:var(--c-muted)">Herramientas no cubiertas por la licencia Adobe CC institucional del IDC</small></td>
+              <td><strong style="font-family:var(--font-display);font-size:1.05rem;color:var(--idc-blue)">S/ 6 500</strong></td>
+              <td><span style="font-size:.7rem;color:var(--c-muted)">+S/ 1 000 para contingencias y upgrades de plan durante el año</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ROI TOTAL SUMMARY -->
+      <div class="roi-total-card reveal" role="region" aria-label="Resumen de retorno de inversión">
+        <div class="roi-total-item">
+          <div class="roi-total-label">Inversión total piloto</div>
+          <div class="roi-total-num">S/ 17 500</div>
+          <div class="roi-total-sub">Proyectos (S/ 10k) + Software (S/ 7.5k)</div>
+        </div>
+        <div class="roi-total-item highlight">
+          <div class="roi-total-label">Costo por caso documentado</div>
+          <div class="roi-total-num">S/ 1 750</div>
+          <div class="roi-total-sub">Si se logran 10 casos de éxito</div>
+        </div>
+        <div class="roi-total-item">
+          <div class="roi-total-label">Retorno institucional estimado</div>
+          <div class="roi-total-num">5–8×</div>
+          <div class="roi-total-sub">Valor de portafolio para captación y licenciamiento</div>
+        </div>
+        <div class="roi-total-item highlight">
+          <div class="roi-total-label">Regla de oro aplicada</div>
+          <div class="roi-total-num">LTV &gt; 3× CAC</div>
+          <div class="roi-total-sub">Valor del egresado en mercado vs. costo de formación piloto</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CHARTS
+    =========================================== -->
+    <section id="chart-section" class="chart-section" aria-labelledby="chart-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Análisis cuantitativo</p>
+          <h2 id="chart-title">Distribución y Composición</h2>
+        </div>
+      </div>
+      <div class="chart-grid">
+        <div class="chart-card reveal">
+          <h3 class="chart-title">Líneas por Área Académica</h3>
+          <p class="chart-desc">Distribución de las 26 líneas de investigación totales</p>
+          <div class="bar-chart" id="barChart" role="img" aria-label="Gráfico de barras de líneas por área"></div>
+        </div>
+        <div class="chart-card reveal">
+          <h3 class="chart-title">Composición del Plan de Investigación</h3>
+          <p class="chart-desc">Proporción relativa de las 26 líneas (por área y transversales)</p>
+          <div class="donut-wrap">
+            <svg width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Gráfico circular de composición">
+              <title>Distribución de líneas por área</title>
+              <circle cx="64" cy="64" r="50" fill="none" stroke="#eef2f7" stroke-width="22"/>
+              <!-- 5/26 = 60.6, circunferencia ~314 -->
+              <circle cx="64" cy="64" r="50" fill="none" stroke="var(--idc-blue)"   stroke-width="22" stroke-dasharray="60.6 253.4" stroke-dashoffset="78.5"/>
+              <circle cx="64" cy="64" r="50" fill="none" stroke="var(--idc-orange)" stroke-width="22" stroke-dasharray="60.6 253.4" stroke-dashoffset="17.9"/>
+              <circle cx="64" cy="64" r="50" fill="none" stroke="#00a0c6"           stroke-width="22" stroke-dasharray="60.6 253.4" stroke-dashoffset="-42.7"/>
+              <circle cx="64" cy="64" r="50" fill="none" stroke="#2ecc71"           stroke-width="22" stroke-dasharray="60.6 253.4" stroke-dashoffset="-103.3"/>
+              <circle cx="64" cy="64" r="50" fill="none" stroke="#8e44ad"           stroke-width="22" stroke-dasharray="72.7 241.3" stroke-dashoffset="-163.9"/>
+              <text x="64" y="59" text-anchor="middle" fill="var(--idc-dark)" font-family="Playfair Display,serif" font-size="19" font-weight="900">26</text>
+              <text x="64" y="73" text-anchor="middle" fill="var(--c-muted)" font-family="Nunito,sans-serif" font-size="9" font-weight="600">líneas</text>
+            </svg>
+            <div class="donut-legend" role="list">
+              <div class="legend-item" role="listitem"><span class="legend-dot" style="background:var(--idc-blue)"></span><span class="legend-name">Interiores</span><span class="legend-val">5 (19%)</span></div>
+              <div class="legend-item" role="listitem"><span class="legend-dot" style="background:var(--idc-orange)"></span><span class="legend-name">Publicitario</span><span class="legend-val">5 (19%)</span></div>
+              <div class="legend-item" role="listitem"><span class="legend-dot" style="background:#F3A20B"></span><span class="legend-name">Modas</span><span class="legend-val">5 (19%)</span></div>
+              <div class="legend-item" role="listitem"><span class="legend-dot" style="background:#2ecc71"></span><span class="legend-name">Audiovisual</span><span class="legend-val">5 (19%)</span></div>
+              <div class="legend-item" role="listitem"><span class="legend-dot" style="background:#8e44ad"></span><span class="legend-name">Transversales</span><span class="legend-val">6 (23%)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TRANSVERSAL LINES
+    =========================================== -->
+    <!-- ==========================================
+         TRANSVERSAL LINES — FULL EXPANDED SYSTEM
+    =========================================== -->
+    <section id="trans-section" class="trans-section-new reveal" aria-labelledby="trans-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Dimensión institucional — 48 temas · 6 líneas</p>
+          <h2 id="trans-title">Líneas Transversales Institucionales</h2>
+        </div>
+      </div>
+      <p style="font-size:.85rem;color:var(--c-muted);margin-bottom:1.4rem;max-width:760px">
+        Las líneas transversales convocan a las cuatro carreras a responder problemas sociales de forma convergente.
+        Selecciona una línea para explorar sus 8 temas de investigación propuestos, carreras implicadas y tipo de proyecto.
+        <em>(Quispe et al., 2024; OCDE, 2012)</em>
+      </p>
+      <div class="lt-overview" id="ltOverview" role="list"></div>
+      <div id="ltDetailContainer"></div>
+    </section>
+
+    <!-- CONVERGENCE MAP -->
+    <section id="conv-section" class="conv-section reveal" aria-labelledby="conv-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Orientación para docentes asesores</p>
+          <h2 id="conv-title">Mapa de Convergencia: Carreras × Líneas Transversales</h2>
+        </div>
+      </div>
+      <div class="conv-table-wrap" role="table" aria-label="Mapa de convergencia">
+        <div class="conv-head" role="row">
+          <div role="columnheader">Línea Transversal</div>
+          <div role="columnheader">D. Publicidad</div>
+          <div role="columnheader">D. Modas</div>
+          <div role="columnheader">D. Interiores</div>
+          <div role="columnheader">C. Audiovisual</div>
+        </div>
+        <div id="convRows"></div>
+      </div>
+      <p style="font-size:.72rem;color:var(--c-muted);margin-top:.9rem;line-height:1.6">
+        <strong>Nota metodológica:</strong> Los 48 temas transversales (8 por línea) se suman a los 32 temas por carrera,
+        conformando un banco de <strong>80 temas de investigación</strong> para el período 2026–2028.
+      </p>
+    </section>
+
+    <!-- ==========================================
+         BIBLIOGRAPHY    BIBLIOGRAPHY
+    =========================================== -->
+    <section id="bib-section" class="bib-section reveal" aria-labelledby="bib-title">
+      <div class="section-header">
+        <div>
+          <p class="section-kicker">Selección de alternativas productivas</p>
+          <h2 id="bib-title">Fuentes Bibliográficas Científicas</h2>
+        </div>
+      </div>
+      <div class="bib-grid" id="bibGrid"></div>
+    </section>
+
+  <!-- ===================================================================
+     PROYECTO AUTOFINANCIADO — Mini-app por pantallas (integrada)
+     =================================================================== -->
+<section id="autofin-section" aria-labelledby="autofin-title" style="margin-bottom:3.5rem">
+
+  <!-- App bar con logo + título -->
+  <div class="af-appbar">
+    <div class="af-logo" id="af-logo"><img src="assets/logo-idc.jpg" loading="lazy" alt="IDC Diseño &amp; Comunicación" style="height:38px;width:auto;object-fit:contain;display:block"></div>
+    <div class="af-appbar-title">
+      <div class="af-kicker">Unidad de Investigación · Herramienta interactiva</div>
+      <h2 id="autofin-title">Proyecto Autofinanciado: Guía, Presupuesto y Prompts</h2>
+    </div>
+  </div>
+
+  <!-- Botones que cambian de pantalla -->
+  <div class="af-screens-nav" id="af-screens-nav"></div>
+
+  <!-- ================= PANTALLA: GENERALES ================= -->
+  <div class="af-screen active" id="af-screen-generales">
+    <div class="af-card af-card-accent" style="--acc:var(--idc-blue)">
+      <div class="af-kicker">Empieza aquí</div>
+      <h2>🧭 Cómo usar esta herramienta — 4 pasos</h2>
+      <p class="af-sub">Usa los botones de arriba para moverte entre pantallas. Cada cambio recalcula al instante.</p>
+      <div class="af-steps">
+        <div class="af-step" style="--st:#0072b9"><div class="af-step-n">1</div><div class="af-step-t">Presupuesto</div><div class="af-step-d">En la pantalla "Presupuesto" define el fondo común y conecta el tipo de cambio del BCRP.</div></div>
+        <div class="af-step" style="--st:#f3a100"><div class="af-step-n">2</div><div class="af-step-t">Tu especialidad</div><div class="af-step-d">Entra a la pantalla de tu carrera, marca tus líneas de investigación y puntúa la rúbrica.</div></div>
+        <div class="af-step" style="--st:#00a0c6"><div class="af-step-n">3</div><div class="af-step-t">Cronograma</div><div class="af-step-d">Define fechas de inicio y término: la tabla reparte las 200 horas entre las 4 fases.</div></div>
+        <div class="af-step" style="--st:#2ecc71"><div class="af-step-n">4</div><div class="af-step-t">Genera el prompt</div><div class="af-step-d">En tu especialidad pulsa "Generar prompt", cópialo y pégalo en Claude con tus evidencias.</div></div>
+      </div>
+      <div class="af-formula" style="border-color:#8e44ad;background:linear-gradient(135deg,rgba(142,68,173,.06),rgba(0,114,185,.05));margin:.2rem 0 .8rem">
+        <b>Marco del proyecto.</b> Es <b>autofinanciado</b> por el estudiante · categoría <b>extracurricular</b> equivalente a <b>200 horas</b> de práctica profesional · puede presentarse entre el <b>1.°</b> y el <b>5.° semestre</b>.
+      </div>
+      <div style="display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:.5rem">
+        <button class="btn-tutorial-open" onclick="openTutorial()" style="font-size:.82rem;padding:.45rem 1.1rem">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.3"/><path d="M7 6v3M7 4.5v.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          Ver tutorial: Cómo formular tu proyecto (ABPP 4 fases)
+        </button>
+        <span style="font-size:.76rem;color:#5c606e">Incluye explicación del botón "Marco Académico"</span>
+      </div>
+      <details class="af-gloss">
+        <summary>¿Qué significa cada campo? (glosario)</summary>
+        <div class="af-gloss-body">
+          <div class="af-gloss-item"><b>Fondo común (S/):</b> dinero total que el equipo autogestiona; se reparte entre los 4 proyectos.</div>
+          <div class="af-gloss-item"><b>Peso equitativo (%):</b> porción repartida por igual; el resto va por mérito (puntaje de rúbrica).</div>
+          <div class="af-gloss-item"><b>Cap máximo / proyecto (%):</b> tope por proyecto; si lo supera, salta un flag.</div>
+          <div class="af-gloss-item"><b>Líneas de investigación:</b> casillas que marcas en tu especialidad; se añaden a los atributos del proyecto y al prompt.</div>
+          <div class="af-gloss-item"><b>Rúbrica (40/35/25):</b> Calidad Creativa y Técnica · Desempeño Financiero · Proceso e Innovación.</div>
+          <div class="af-gloss-item"><b>Puntaje S:</b> nota ponderada 0–100 que define el presupuesto por mérito.</div>
+          <div class="af-gloss-item"><b>Asignado / % / vs solicitado:</b> lo que te da la fórmula, su porcentaje y la diferencia con lo pedido.</div>
+        </div>
+      </details>
+    </div>
+
+    <div class="af-card af-card-accent" style="--acc:var(--idc-orange)">
+      <div class="af-kicker">Cómo formular tu proyecto</div>
+      <h2 class="af-acc" style="color:#a05a00">🚀 Metodología ABPP — 4 fases (12 semanas)</h2>
+      <div id="af-phases"></div>
+      <div class="af-mini-h" style="--acc:#8e44ad;margin-top:1.2rem">Elige tu tipo de innovación</div>
+      <div class="af-innov-cards">
+        <div class="af-innov-c inc"><div class="it">↗ Incremental</div><div class="id">Mejora algo que ya existe. Menor riesgo.</div></div>
+        <div class="af-innov-c dis"><div class="it">⚡ Disruptiva</div><div class="id">Nuevo modelo o cambia las reglas. Riesgo medio-alto.</div></div>
+        <div class="af-innov-c rad"><div class="it">🚀 Radical</div><div class="id">Algo inédito. Mayor riesgo: exige prototipo.</div></div>
+      </div>
+      <div class="af-mini-h" style="--acc:var(--idc-orange)">Indicadores de éxito — Meta 2026</div>
+      <div class="af-succ">
+        <div class="af-succ-i"><div class="af-succ-n" style="color:#0072b9">≥60%</div><div class="af-succ-l">ROAS positivo</div></div>
+        <div class="af-succ-i"><div class="af-succ-n" style="color:#f3a100">10</div><div class="af-succ-l">Casos documentados</div></div>
+        <div class="af-succ-i"><div class="af-succ-n" style="color:#2ecc71">≥60</div><div class="af-succ-l">NPS de clientes</div></div>
+        <div class="af-succ-i"><div class="af-succ-n" style="color:#8e44ad">≥3</div><div class="af-succ-l">Emprendimientos</div></div>
+        <div class="af-succ-i"><div class="af-succ-n" style="color:#00a0c6">5K+</div><div class="af-succ-l">Impresiones</div></div>
+      </div>
+    </div>
+
+    <div class="af-card af-card-accent" style="--acc:#8e44ad">
+      <div class="af-kicker">Sustento de las 200 horas</div>
+      <h2 class="af-acc" style="color:#8e44ad">⚖️ Base normativa y justificación (EFSRT)</h2>
+      <p class="af-sub">Las 200 horas de práctica se sustentan como Experiencias Formativas en Situaciones Reales de Trabajo, modalidad de proyectos productivos de bienes y servicios.</p>
+      <div class="af-gloss-item"><b>20.3.3 — Definición.</b> Las EFSRT son actividades en situaciones reales de trabajo para <b>consolidar, integrar o ampliar</b> conocimientos, habilidades y actitudes, con el fin de <b>mejorar la empleabilidad</b> del estudiante.</div>
+      <div class="af-gloss-item"><b>20.3.3.1 «En el IES» — Modalidad.</b> Las EFSRT pueden desarrollarse mediante <b>proyectos productivos de bienes y servicios</b>, actividades conexas, proyección social, emprendimiento e iniciativas de negocio. Un proyecto de innovación tecnológica calza como proyecto productivo.</div>
+      <div class="af-gloss-item"><b>Requisitos del proyecto productivo.</b> (1) Relación directa con las <b>competencias del programa</b>; (2) responder a una <b>problemática real</b> de un contexto; (3) tener fases de <b>planificación, ejecución y entrega</b>, con seguimiento y evaluación por criterios e instrumentos.</div>
+      <div class="af-gloss-item"><b>Equivalencia crédito–horas.</b> «El valor de un crédito en las EFSRT equivale a horas prácticas». → 200 horas = <b>créditos × horas/crédito</b> (configurable en Cronograma).</div>
+      <div class="af-gloss-item"><b>Conclusión.</b> Cumplidos los requisitos, el proyecto es una EFSRT y sus <b>200 horas se contabilizan como horas prácticas profesionales</b>. Carácter extracurricular, autofinanciado, presentable del 1.° al 5.° semestre.</div>
+    </div>
+  </div>
+
+  <!-- ================= PANTALLA: PRESUPUESTO ================= -->
+  <div class="af-screen" id="af-screen-presupuesto">
+    <div class="af-card af-card-accent" style="--acc:var(--idc-orange)">
+      <div class="af-fx-head">
+        <div><div class="af-kicker">Banco Central de Reserva del Perú</div>
+          <h2 class="af-acc" style="color:#a05a00">💱 Tipo de cambio S/ ↔ US$</h2></div>
+        <span class="af-fx-status loading" id="af-fxStatus">Conectando con el BCRP…</span>
+      </div>
+      <p class="af-sub">Recomendado: usa el proxy para tipo de cambio en vivo sin bloqueo CORS.</p>
+      <div class="af-fx-rates">
+        <div class="af-fx-rate"><div class="lbl">Compra (S/ por US$)</div><input id="af-rateBuy" type="number" step="0.001" value="3.740" oninput="VR.manualRate()"></div>
+        <div class="af-fx-rate"><div class="lbl">Venta (S/ por US$)</div><input id="af-rateSell" type="number" step="0.001" value="3.760" oninput="VR.manualRate()"></div>
+        <div class="af-fx-rate"><div class="lbl">Usado en conversión</div><div class="num sell" id="af-rateUsed">3.760</div><div class="af-rv-sub" id="af-rateDate">referencial</div></div>
+      </div>
+      <div style="margin-bottom:.8rem">
+        <label>URL del proxy BCRP (Cloudflare Worker / Vercel)</label>
+        <input id="af-proxyUrl" placeholder="https://bcrp-proxy.tu-subdominio.workers.dev" oninput="VR.saveProxy()">
+        <div class="af-help">Sin proxy intenta directo y, si falla, edita los valores a mano.</div>
+      </div>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem">
+        <button class="af-btn primary sm" onclick="VR.fetchBCRP()" style="--acc:var(--idc-orange)">↻ Actualizar desde BCRP</button>
+        <span class="af-fx-src">Fuente: <a href="https://www.bcrp.gob.pe/" target="_blank" rel="noopener">bcrp.gob.pe</a> · SBS PD04639/PD04640</span>
+      </div>
+      <div class="af-kicker">Conversor</div>
+      <div class="af-conv">
+        <div><label>Soles (S/)</label><input id="af-convSol" type="number" step="0.01" value="1000" oninput="VR.conv('sol')"></div>
+        <div class="af-conv-swap">⇄</div>
+        <div><label>Dólares (US$)</label><input id="af-convUsd" type="number" step="0.01" oninput="VR.conv('usd')"></div>
+      </div>
+    </div>
+
+    <div class="af-card af-card-accent" style="--acc:var(--idc-blue)">
+      <div class="af-kicker">Fondo común autogestionado</div>
+      <h2>Reparto del presupuesto en vivo</h2>
+      <p class="af-sub">En soles y dólares (TC venta). El total siempre cuadra al 100% del fondo.</p>
+      <div class="af-gb-controls">
+        <div><label>Fondo común (S/)</label><input id="af-fund" type="number" value="20000" min="0" step="500" oninput="VR.recalc()"><div class="af-help">Total del equipo.</div></div>
+        <div class="af-slider-wrap"><label>Peso equitativo <span class="af-slider-val" id="af-weqLbl">40%</span></label>
+          <input id="af-weq" type="range" min="0" max="100" value="40" oninput="VR.recalc()"><div class="af-help">Resto (<span id="af-wmerLbl">60%</span>) por puntaje.</div></div>
+        <div class="af-slider-wrap"><label>Cap máximo / proyecto <span class="af-slider-val" id="af-capLbl">35%</span></label>
+          <input id="af-cap" type="range" min="25" max="100" value="35" step="5" oninput="VR.recalc()" style="--thumb:var(--idc-orange)"><div class="af-help">Tope por proyecto.</div></div>
+      </div>
+      <div class="af-dist-bars" id="af-distBars"></div>
+      <div class="af-dist-total"><span>Total repartido</span>
+        <span><b id="af-distTotal">S/ 0</b> <span class="af-dist-usd" id="af-distTotalUsd"></span> / <span id="af-distFund">S/ 0</span></span></div>
+      <div class="af-formula">
+        <b>Fórmula exacta.</b> Puntaje: <code>Sᵢ = 0.40·Creativa + 0.35·Financiera + 0.25·Proceso</code>.<br>
+        Reparto: <code>Aᵢ = w_eq·F/4 + (1−w_eq)·F·Sᵢ/ΣS</code> · <b>ΣAᵢ = F</b>. <code>US$ = S/ ÷ TC venta</code>.
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PANTALLAS POR ESPECIALIDAD (JS) ================= -->
+  <div class="af-screen" id="af-screen-int"></div>
+  <div class="af-screen" id="af-screen-pub"></div>
+  <div class="af-screen" id="af-screen-mod"></div>
+  <div class="af-screen" id="af-screen-cav"></div>
+
+  <!-- ================= PANTALLA: CRONOGRAMA ================= -->
+  <div class="af-screen" id="af-screen-cronograma">
+    <div class="af-card af-card-accent" style="--acc:#8e44ad">
+      <div class="af-kicker">Categoría extracurricular · 200 horas de práctica profesional</div>
+      <h2 class="af-acc" style="color:#8e44ad">🗓️ Cronograma del proyecto (autofinanciado)</h2>
+      <p class="af-sub">Define inicio y término: la tabla calcula semanas, horas/semana y reparte las 200 horas entre las 4 fases ABPP. Presentable entre el 1.° y el 5.° semestre.</p>
+      <div class="af-gb-controls">
+        <div><label>Semestre de presentación</label>
+          <select id="af-sem" onchange="VR.schedule()">
+            <option>1.° semestre</option><option>2.° semestre</option><option selected>3.° semestre</option>
+            <option>4.° semestre</option><option>5.° semestre</option></select>
+          <div class="af-help">Ventana válida: 1.° a 5.°.</div></div>
+        <div><label>Fecha de inicio</label><input id="af-start" type="date" oninput="VR.schedule()"></div>
+        <div><label>Fecha de término</label><input id="af-end" type="date" oninput="VR.schedule()"></div>
+        <div><label>Créditos EFSRT</label><input id="af-cred" type="number" min="0" step="1" value="4" oninput="VR.efsrt()"><div class="af-help">N.° de créditos del proyecto.</div></div>
+        <div><label>Horas por crédito (EFSRT)</label><input id="af-hcred" type="number" min="0" step="1" value="50" oninput="VR.efsrt()"><div class="af-help">20.3.3.1: 1 crédito ≡ horas prácticas.</div></div>
+        <div><label>Horas totales = créditos × horas/crédito</label><input id="af-hours" type="number" value="200" min="0" step="10" oninput="VR.schedule()"><div class="af-help" id="af-efsrt-eq">4 × 50 = 200 horas</div></div>
+      </div>
+      <div class="af-formula" style="border-color:#8e44ad;background:linear-gradient(135deg,rgba(142,68,173,.06),rgba(0,114,185,.05))">
+        <b>Base normativa (EFSRT).</b> Numeral <b>20.3.3.1 «En el IES»</b> del <b>20.3.3 «Experiencias Formativas en Situaciones Reales de Trabajo (EFSRT)»</b>, modalidad de <b>proyectos productivos de bienes y servicios</b>: «el valor de un crédito en las EFSRT equivale a horas prácticas». Por ello las <b>200 horas</b> se sustentan como <b>créditos × horas/crédito</b>, y el proyecto se <b>vincula directamente con las competencias del programa de estudios</b> de la especialidad.
+      </div>
+      <div id="af-sched-warn"></div>
+      <div id="af-sched-summary" class="af-succ" style="margin-bottom:1rem"></div>
+      <div class="af-sched-wrap">
+        <table class="af-sched">
+          <thead><tr><th>Fase</th><th>Periodo</th><th>Semanas</th><th>Horas</th><th>Entregable</th></tr></thead>
+          <tbody id="af-sched-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= PANTALLA: INSCRIPCIÓN / PRESENTACIÓN (PTIIT) ================= -->
+  <div class="af-screen" id="af-screen-inscripcion">
+    <div class="af-card af-card-accent" style="--acc:#0072b9">
+      <div class="af-kicker">Plan del Trabajo de Investigación e Innovación Tecnológica (PTIIT)</div>
+      <h2>📄 Inscripción y generación del documento Word</h2>
+      <p class="af-sub">Completa los datos siguiendo la plantilla institucional 2026. Al final, genera un documento Word con membrete del IES «Diseño y Comunicación», estructura del PTIIT y formato APA 7.ª ed., para la aprobación de la Coordinación del Programa de Estudios y la Jefatura de la Unidad de Investigación.</p>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap;align-items:center">
+        <button class="af-btn sm" onclick="VR.importFromTool()">⤵ Importar datos de la herramienta</button>
+        <span class="af-chip" id="af-insc-chip" style="--acc:#009C9D">Diseño de Interiores</span>
+      </div>
+      <div style="margin-top:.9rem">
+        <label>Tipo de documento a generar</label>
+        <div class="af-radio">
+          <label><input type="radio" name="af-doctype" value="plan" checked> Plan del Trabajo de Investigación e Innovación Tecnológica (PTIIT) <span style="color:var(--c-text-soft)">(secciones 1–11)</span></label>
+          <label><input type="radio" name="af-doctype" value="informe"> Informe PTIIT <span style="color:var(--c-text-soft)">(4 capítulos)</span></label>
+        </div>
+        <div class="af-help" style="margin-top:.5rem;background:rgba(0,114,185,.06);border:1px solid rgba(0,114,185,.18);border-radius:8px;padding:.7rem .9rem;font-size:.8rem;line-height:1.6">
+          <b>¿Cuándo usar cada uno?</b><br>
+          <b>Plan PTIIT</b> — documento de inicio: define el problema, objetivos, cronograma y presupuesto. Se presenta <em>antes</em> de ejecutar el proyecto para obtener aprobación de la Coordinación y la Jefatura de Investigación. Equivale al examen escrito (30% de la nota).<br>
+          <b>Informe PTIIT</b> — documento de cierre: reporta resultados, evidencias, conclusiones y referencias. Se presenta <em>después</em> de ejecutar el proyecto ante el Jurado Calificador para el examen oral (70% de la nota).
+        </div>
+      </div>
+    </div>
+
+    <!-- A. Identificación -->
+    <div class="af-card af-card-accent" style="--acc:#0072b9">
+      <div class="af-mini-h" style="--acc:#0072b9">A · Identificación y programa de estudios</div>
+      <div class="af-form-grid">
+        <div class="full"><label>1. Título del trabajo (máx. 25 palabras: tema, especificidad, lugar y año)</label><input id="af-f-titulo" placeholder="Ej. Mobiliario modular sostenible con impresión 3D y material reciclado, Lima, 2026"></div>
+        <div><label>Programa de estudios (especialidad)</label>
+          <select id="af-f-esp" onchange="VR.fillLineOptions()">
+            <option value="int">Diseño de Interiores</option><option value="pub">Diseño Publicitario</option>
+            <option value="mod">Diseño de Modas</option><option value="cav">Comunicación Audiovisual</option></select></div>
+        <div><label>Semestre / Año</label><input id="af-f-semestre" value="III Semestre — 2026"></div>
+        <div class="full"><label>Línea de investigación</label><select id="af-f-linea"></select></div>
+        <div><label>Tipo de innovación</label><select id="af-f-innov"><option>Incremental</option><option>Disruptiva</option><option>Radical</option></select></div>
+        <div><label>Modalidad (individual o máx. 4 estudiantes, 1.° a 5.° semestre)</label>
+          <div class="af-radio">
+            <label><input type="radio" name="af-modal" value="Individual" checked onchange="VR.setModalidad()"> Individual</label>
+            <label><input type="radio" name="af-modal" value="Grupal" onchange="VR.setModalidad()"> Grupal (2–4 integrantes)</label>
+          </div></div>
+      </div>
+      <div class="af-mini-h" style="--acc:#0072b9;margin-top:1rem">Integrantes</div>
+      <div id="af-members"></div>
+      <button class="af-btn add" id="af-addmember" onclick="VR.addMember()" style="display:none">+ Agregar integrante</button>
+    </div>
+
+    <!-- B. Formulación del problema -->
+    <div class="af-card af-card-accent" style="--acc:#f3a100">
+      <div class="af-mini-h" style="--acc:#a05a00">4 · Formulación del problema</div>
+      <div class="af-form-grid">
+        <div class="full"><label>4.1 Problema general</label><textarea id="af-f-pgen" placeholder="¿De qué manera…? Pregunta central, concreta y delimitada."></textarea></div>
+        <div class="full"><label>4.2 Problemas específicos (uno por línea: PE1, PE2, PE3)</label><textarea id="af-f-pe" placeholder="PE1: …&#10;PE2: …&#10;PE3: …"></textarea></div>
+      </div>
+    </div>
+
+    <!-- C. Objetivos -->
+    <div class="af-card af-card-accent" style="--acc:#2ecc71">
+      <div class="af-mini-h" style="--acc:#1a8a4a">5 · Objetivos</div>
+      <div class="af-form-grid">
+        <div class="full"><label>5.1 Objetivo general (verbo en infinitivo)</label><textarea id="af-f-objgen" placeholder="Ej. Diseñar y validar un sistema de mobiliario modular sostenible…"></textarea></div>
+        <div class="full"><label>5.2 Objetivos específicos (uno por línea: OE1, OE2, OE3)</label><textarea id="af-f-objesp" placeholder="OE1: …&#10;OE2: …&#10;OE3: …"></textarea></div>
+      </div>
+    </div>
+
+    <!-- D. Justificación -->
+    <div class="af-card af-card-accent" style="--acc:#8e44ad">
+      <div class="af-mini-h" style="--acc:#8e44ad">6 · Justificación</div>
+      <div class="af-form-grid">
+        <div class="full"><label>Trascendencia (impacto a largo plazo)</label><textarea id="af-f-jtrasc"></textarea></div>
+        <div class="full"><label>Magnitud (dimensión del problema, con datos)</label><textarea id="af-f-jmagn"></textarea></div>
+        <div class="full"><label>Vulnerabilidad (por qué requiere atención inmediata)</label><textarea id="af-f-jvuln"></textarea></div>
+        <div class="full"><label>Factibilidad (recursos humanos, materiales, tecnológicos, financieros, temporales)</label><textarea id="af-f-jfact"></textarea></div>
+      </div>
+    </div>
+
+    <!-- E. Descripción técnica, cronograma y presupuesto -->
+    <div class="af-card af-card-accent" style="--acc:#00a0c6">
+      <div class="af-mini-h" style="--acc:#007a96">7 · Descripción técnica · 8 · Cronograma · Presupuesto</div>
+      <div class="af-form-grid">
+        <div class="full"><label>7. Descripción técnica (máx. 300 palabras: metodología, materiales, fases, entregable)</label><textarea id="af-f-desctec"></textarea></div>
+        <div class="full"><label>Unidad(es) Didáctica(s) vinculada(s)</label><input id="af-f-ud" placeholder="Ej. Taller de Diseño II, Tecnología de materiales"></div>
+        <div class="full"><label>Competencia(s) del programa de estudios vinculada(s) (EFSRT 20.3.3.1)</label><textarea id="af-f-comp" placeholder="Indica la(s) competencia(s) del perfil de egreso con las que se vincula el proyecto productivo."></textarea></div>
+        <div><label>Presupuesto estimado (S/) — autofinanciado</label><input id="af-f-presup" type="number" min="0" step="100" value="5000"></div>
+        <div><label>Horas (extracurricular)</label><input id="af-f-horas" type="number" min="0" step="10" value="200"></div>
+        <div><label>Fecha de inicio</label><input id="af-f-inicio" type="date"></div>
+        <div><label>Fecha de término</label><input id="af-f-termino" type="date"></div>
+      </div>
+      <div class="af-help">El cronograma (sección 8) se genera automáticamente con las 4 fases ABPP a partir de las fechas.</div>
+    </div>
+
+    <!-- F. Asesoría y aprobación -->
+    <div class="af-card af-card-accent" style="--acc:#545452">
+      <div class="af-mini-h" style="--acc:#545452">Asesoría, firmas y aprobación</div>
+      <div class="af-form-grid">
+        <div><label>Docente asesor(a) / tutor responsable</label><input id="af-f-asesor" placeholder="Apellidos y nombres"></div>
+        <div><label>DNI del asesor(a)</label><input id="af-f-asesordni" placeholder="DNI"></div>
+        <div><label>Coordinación del Programa de Estudios</label><input id="af-f-coord" placeholder="Se auto-completa al elegir especialidad"></div>
+        <div><label>Jefatura de la Unidad de Investigación</label><input id="af-f-jefe" value="Mg. Mario Quiroz Martínez"></div>
+        <div><label>Lugar y fecha de presentación</label><input id="af-f-fecha" placeholder="Lima, dd/mm/aaaa"></div>
+      </div>
+      <!-- Nota de propiedad intelectual y carta poder -->
+      <div style="background:#fff8e1;border:1.5px solid #f3a100;border-radius:8px;padding:.9rem 1.1rem;margin-top:1rem;font-size:.82rem;line-height:1.65">
+        <div style="font-weight:700;color:#a05a00;margin-bottom:.4rem">⚖️ Derechos de autor y autoría exclusiva</div>
+        <p style="margin:0 0 .45rem">Los firmantes del presente PTIIT son declarados <strong>autores exclusivos y excluyentes</strong> de la obra, en los términos del <strong>Decreto Legislativo N.° 822 — Ley sobre el Derecho de Autor del Perú</strong> y las normas de <strong>Copyright internacional</strong> (Convenio de Berna, Art. 2). La firma en el documento constituye prueba de autoría y cesión voluntaria de derechos de uso institucional al IDC para fines educativos.</p>
+        <p style="margin:0 0 .45rem"><strong>Retiro de un integrante:</strong> El retiro voluntario o involuntario de uno o más miembros del equipo de trabajo debe estar respaldado por una <strong>Carta Poder notarial</strong> mediante la cual el(los) miembro(s) que se retira(n) cede(n) expresamente todos los derechos patrimoniales sobre el proyecto a los estudiantes que continúan. Sin este documento, la obra no podrá ser sustentada ni publicada por el equipo restante.</p>
+        <p style="margin:0">La Carta Poder debe ser presentada ante la Coordinación del Programa de Estudios y la Jefatura de la Unidad de Investigación para su registro formal antes de la sustentación.</p>
+      </div>
+      <div class="af-sign-note" style="margin-top:.8rem">El documento incluye firmas con DNI de todos los autores y del asesor, más la aprobación de la Coordinación del Programa de Estudios y la Jefatura de la Unidad de Investigación.</div>
+    </div>
+
+    <!-- Datos adicionales para Informe PTIIT (opcional) -->
+    <div class="af-card af-card-accent" style="--acc:#545452">
+      <div class="af-mini-h" style="--acc:#545452">Datos para Informe PTIIT (opcional — solo si eliges «Informe PTIIT»)</div>
+      <div class="af-form-grid">
+        <div class="full"><label>Resumen ejecutivo (máx. 250 palabras)</label><textarea id="af-f-resumen"></textarea></div>
+        <div><label>Dedicatoria</label><textarea id="af-f-dedica"></textarea></div>
+        <div><label>Agradecimiento</label><textarea id="af-f-agrade"></textarea></div>
+        <div class="full"><label>Conclusiones (una por línea)</label><textarea id="af-f-conclu"></textarea></div>
+        <div class="full"><label>Recomendaciones (una por línea)</label><textarea id="af-f-recom"></textarea></div>
+        <div class="full"><label>Referencias bibliográficas APA 7.ª (una por línea)</label><textarea id="af-f-refs"></textarea></div>
+      </div>
+      <div class="af-help">Si los dejas vacíos, el Informe se genera con los textos guía de la plantilla institucional (para que el estudiante los complete).</div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="af-card af-card-accent" style="--acc:#8e44ad">
+      <h2 class="af-acc">❓ Preguntas frecuentes</h2>
+      <div id="af-faq-list">
+        <details class="af-faq-item" open>
+          <summary class="af-faq-q">¿Qué es el PTIIT y por qué es obligatorio?</summary>
+          <div class="af-faq-a">El <strong>Plan del Trabajo de Investigación e Innovación Tecnológica (PTIIT)</strong> es el documento institucional que sistematiza y sustenta la experiencia o proyecto del estudiante. Constituye el <strong>examen escrito (30%)</strong> y es la base para la sustentación oral ante el Jurado Calificador <strong>(Examen Oral, 70%)</strong>. Sin el PTIIT aprobado no puede realizarse la sustentación. Véase la sección <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('generales')" style="color:#8e44ad">Proyecto Autofinanciado → Generales</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Cuántos estudiantes pueden presentar un proyecto juntos?</summary>
+          <div class="af-faq-a">Los trabajos pueden presentarse de manera <strong>individual</strong> o en equipo de <strong>hasta cuatro (4) estudiantes</strong> matriculados del 1.° al 5.° semestre. No se admiten egresados ni personas externas al IES como autores. Véase la sección <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('inscripcion')" style="color:#8e44ad">Inscripción → Integrantes</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Qué pasa si un integrante del equipo se retira?</summary>
+          <div class="af-faq-a">El retiro de un miembro debe formalizarse con una <strong>Carta Poder notarial</strong> en la que el estudiante que se retira cede expresamente sus derechos patrimoniales sobre el proyecto a los integrantes que continúan. Esto se sustenta en el <strong>D. Leg. N.° 822 (Ley sobre el Derecho de Autor)</strong> y el Convenio de Berna. Sin ese documento, el equipo restante no puede sustentar ni publicar la obra. Preséntenla ante la Coordinación del Programa y la Jefatura de Investigación. Véase la sección <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('inscripcion')" style="color:#8e44ad">Inscripción → Firmas</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Cuál es la diferencia entre Plan PTIIT e Informe PTIIT?</summary>
+          <div class="af-faq-a"><strong>Plan PTIIT</strong> (secciones 1–11): se presenta <em>antes</em> de iniciar el proyecto. Define el problema, objetivos, cronograma y presupuesto. Requiere aprobación de la Coordinación y de la Jefatura de Investigación.<br><strong>Informe PTIIT</strong> (4 capítulos): se presenta <em>al concluir</em> el proyecto. Reporta resultados, evidencias, conclusiones y referencias. Es el documento que se evalúa en la sustentación oral. Véase <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('inscripcion')" style="color:#8e44ad">Inscripción → Tipo de documento</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Cuántas horas vale el proyecto y cómo se cuentan?</summary>
+          <div class="af-faq-a">El proyecto equivale a <strong>200 horas de práctica profesional (EFSRT)</strong> en la modalidad extracurricular, conforme al numeral <strong>20.3.3.1</strong>: 4 créditos × 50 h/crédito = 200 horas. Se puede presentar del 1.° al 5.° semestre. Véase la calculadora en <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('cronograma')" style="color:#8e44ad">Cronograma → Créditos EFSRT</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Cómo se reparte el presupuesto del fondo común?</summary>
+          <div class="af-faq-a">El fondo se reparte con una fórmula mixta: una parte <strong>igualitaria</strong> (% definido por el control deslizante "Reparto igualitario") y una parte por <strong>mérito</strong> proporcional al puntaje ponderado de la rúbrica (40% creatividad · 35% finanzas · 25% proceso). Véase el simulador en <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('presupuesto')" style="color:#8e44ad">Presupuesto → Reparto del fondo</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿Qué líneas de investigación puedo elegir?</summary>
+          <div class="af-faq-a">Puedes seleccionar líneas <strong>propias de tu especialidad</strong> (5 por carrera) y/o <strong>líneas transversales</strong> (6 ejes que cruzan todas las carreras: IA, sostenibilidad, emprendimiento, inclusión, cultura digital y convergencia). Todas las seleccionadas se incluyen automáticamente en el prompt de IA y en el PTIIT. Véase <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('int')" style="color:#8e44ad">tu especialidad → Líneas de investigación</a>.</div>
+        </details>
+        <details class="af-faq-item">
+          <summary class="af-faq-q">¿El documento Word generado es el oficial del IDC?</summary>
+          <div class="af-faq-a">El documento generado sigue la <strong>estructura oficial del PTIIT (11 secciones)</strong> con membrete institucional referencial, formato APA 7.ª ed. (Times New Roman 12, interlineado doble, márgenes 2,54 cm) y el color corporativo de la especialidad. Para uso oficial, guárdalo como <code>.docx</code> en Word y reemplaza el membrete referencial por el <strong>logo oficial del IDC</strong>. Véase <a href="#autofin-section" onclick="if(window.VR)VR.showScreen('inscripcion')" style="color:#8e44ad">Inscripción → Generar documento</a>.</div>
+        </details>
+      </div>
+    </div>
+
+    <!-- MATRIZ DE RESULTADO: plantilla Word oficial ↔ formulario -->
+    <div class="af-card af-card-accent" id="af-matrix-card" style="--acc:#0072b9">
+      <h2 class="af-acc">🧩 Matriz de resultado — documento Word oficial por especialidad</h2>
+      <p class="af-sub">Cada fila es una sección del <strong>documento Word institucional (.docx)</strong> de tu especialidad. La matriz muestra, en vivo, con qué dato del formulario se rellenará cada sección al generar el documento. Haz clic en una fila para ir al campo correspondiente.</p>
+      <div class="rmx-tpls" id="rmx-tpls" role="tablist" aria-label="Plantilla Word oficial por especialidad"></div>
+      <div class="rmx-progress" role="progressbar" aria-label="Avance de llenado del documento" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="rmx-bar"><div class="rmx-progress-fill" id="rmx-fill"></div></div>
+      <div class="rmx-progress-meta"><span id="rmx-pct">0% completado</span><span class="rmx-save" id="rmx-save">💾 borrador local</span><span id="rmx-count"></span></div>
+      <div style="overflow-x:auto">
+        <table class="rmx-table" id="rmx-table" aria-live="polite">
+          <thead><tr><th style="width:32%">Sección del Word oficial</th><th>Resultado del formulario</th><th style="width:110px">Estado</th></tr></thead>
+          <tbody id="rmx-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="af-card af-card-accent" style="--acc:#0072b9">
+      <h2 class="af-acc">📥 Generar documento</h2>
+      <p class="af-sub">Genera el documento con los datos del formulario. La opción recomendada rellena la <strong>plantilla Word institucional (.docx) de la especialidad</strong> — la misma de la matriz de arriba — conservando su membrete y formato oficial. Elige arriba si es <strong>Plan PTIIT</strong> (inicio del proyecto) o <strong>Informe PTIIT</strong> (cierre y sustentación).</p>
+      <button class="af-btn primary full" style="font-size:1rem;padding:.75rem" onclick="VR.genWordOficial()">🧩 Word oficial (.docx) rellenado — plantilla de la especialidad</button>
+      <button class="af-btn full" style="font-size:.92rem;padding:.65rem;margin-top:.55rem" onclick="VR.genWord()">📄 Versión alternativa (.doc con membrete recreado, APA 7.0)</button>
+      <div class="af-help" style="margin-top:.6rem">El <strong>.docx oficial</strong> conserva la plantilla institucional intacta (portada, tablas, firmas) e inserta tus datos según la matriz de resultado. El <strong>Informe PTIIT</strong> se genera en la versión alternativa (la plantilla oficial cubre el Plan, secciones 1–11). Abre en Word / Google Docs / LibreOffice.</div>
+    </div>
+  </div>
+
+  <div class="af-toast" id="af-toast">Copiado ✓</div>
+</section>
+
+  </div><!-- /container -->
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <img src="assets/logo-idc.jpg" loading="lazy" width="221" height="83" alt="IDC Diseño & Comunicación" id="footerLogo"/>
+    <p class="footer-name">Instituto de Educación Superior Público Diseño y Comunicación — IDC</p>
+    <p class="footer-sub">Unidad de Investigación · 2026</p>
+    <div class="footer-divider" aria-hidden="true"></div>
+    <p class="footer-meta">
+      Jefatura de la Unidad de Investigación: Mg. Mario Quiroz Martínez · 2026<br>
+      Carreras: Diseño de Interiores · Diseño Publicitario · Diseño de Modas · Comunicación Audiovisual
+    </p>
+    <p class="footer-source">Fuente: MEMO N° 05/JUI/IDC/2025-II · Infografía interactiva con principios UX Research · WCAG 2.1 AA</p>
+  </div>
+</footer>
+<script src="assets/wgen-templates.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
